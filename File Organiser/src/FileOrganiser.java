@@ -7,7 +7,7 @@ import java.nio.file.StandardCopyOption;
 public class FileOrganiser {
 
     public static void main(String[] args) {
-        // Change this to the folder you want to organize
+        
         String folderPath = "C:/Users/YourName/TestOrganiser";
         organiseFiles(folderPath);
     }
@@ -87,3 +87,4 @@ public class FileOrganiser {
         System.out.println(bar);
     }
 }
+
