@@ -42,7 +42,7 @@ public class FileOrganiser {
 
                 moveFile(file, folderPath + "/" + category);
 
-                // Update progress bar
+                // Update progresss bar
                 count++;
                 showProgress(count, total);
             }
@@ -87,4 +87,5 @@ public class FileOrganiser {
         System.out.println(bar);
     }
 }
+
 
